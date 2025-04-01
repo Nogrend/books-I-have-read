@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: books-I-have-read
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bookihavereaddb
+    username: user
+    password: password
+    driver-class-name: org.postgresql.Driver
+  sql:
+    init:
+      mode: always
+
+gg.jte:
+  templateLocation: src/main/jte
+  templateSuffix: .jte
+  developmentMode: true

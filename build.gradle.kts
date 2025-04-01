@@ -21,6 +21,9 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-web")
 
+    implementation("org.springframework.boot:spring-boot-starter-jdbc")
+    implementation("org.postgresql:postgresql:42.7.5")
+
     implementation("gg.jte:jte-spring-boot-starter-3:3.2.0")
     implementation("gg.jte:jte:3.2.0")
 

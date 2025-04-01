@@ -1,6 +1,8 @@
 package nogrend.booksihaveread.book;
 
 public record Book(
-        String title
+        long id,
+        String title,
+        String isbn
 ) {
 }
