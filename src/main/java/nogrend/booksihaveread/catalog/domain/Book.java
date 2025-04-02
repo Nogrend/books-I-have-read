@@ -1,7 +1,7 @@
-package nogrend.booksihaveread.book;
+package nogrend.booksihaveread.catalog.domain;
 
 public record Book(
-        long id,
+        BookId id,
         String title,
         String isbn
 ) {

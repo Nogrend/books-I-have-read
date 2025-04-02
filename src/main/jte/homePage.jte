@@ -1,4 +1,4 @@
-@import nogrend.booksihaveread.book.Book
+@import nogrend.booksihaveread.catalog.domain.Book
 
 @param Book book
 
