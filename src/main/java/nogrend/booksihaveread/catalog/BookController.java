@@ -10,7 +10,7 @@ public class BookController {
 
     @GetMapping("/books")
     public String books(Model model) {
-        model.addAttribute("model", new Book(1, "test", "xxxxxxxxxxxxx"));
+        model.addAttribute("model", Book.of("test", "123-456-7890"));
         return "homePage";
     }
 }
