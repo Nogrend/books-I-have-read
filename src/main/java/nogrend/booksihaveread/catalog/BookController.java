@@ -19,7 +19,7 @@ public class BookController {
                 Book.of("Head First Design Patterns", "9780596007126")
         );
         model.addAttribute("books", books);
-        return "homePage";
+        return "pages/booksOverview";
     }
 
     @PostMapping("/books")
